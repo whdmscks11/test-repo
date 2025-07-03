@@ -12,7 +12,7 @@ public class MemberRepositoryV0 {
 
     public Member save(Member member) throws SQLException{
 
-        String sql = "insert into member(member_id, money) values(?, ?)";
+        String sql = "insert into member(member_id, money) values(?, ?)"; // comment
 
         Connection conn = null;
         PreparedStatement pstmt = null;
